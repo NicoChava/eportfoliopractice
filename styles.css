@@ -41,6 +41,10 @@ li {
     list-style-type: none;
 }
 
+.text--pink {
+    color: #a41f66;
+}
+
 .flex {
     display: flex;
 }
