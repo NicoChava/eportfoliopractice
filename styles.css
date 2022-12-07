@@ -13,7 +13,7 @@ MAIN CODE
 */
 
 * {
-    background-color: rgb(218, 217, 217);
+    background-color: #dad9d9;
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
@@ -114,7 +114,7 @@ nav {
 
 .nav__link--anchor:hover {
     background-color: #6030b1;
-    color: #ffffff;
+    color: #dad9d9;
     padding: 8px 20px;
     border-radius: 50px;
 }
@@ -130,7 +130,7 @@ nav {
 
 .nav__link--anchor-primary:hover {
     background-color: #a41f66;
-    color: #ffffff;
+    color: #dad9d9;
     padding: 8px 20px;
     border-radius: 50px;
 }
@@ -141,7 +141,7 @@ nav {
 
 .personal__logo:hover {
     background-color: #a41f66;
-    color: #ffffff;
+    color: #dad9d9;
     font-size: 38px;
     padding: 8px 20px;
     border-radius: 50px;
