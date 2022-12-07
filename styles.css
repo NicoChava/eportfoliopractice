@@ -80,9 +80,6 @@ transition: all 300ms ease;
 
 .nav__link--anchor:active {
     background-color:#a41f66;
-    color: #ffffff;
-    padding: 8px 20px;
-    border-radius: 50px;
 }
 
 .nav__link--anchor-primary {
@@ -99,9 +96,6 @@ transition: all 300ms ease;
 
 .nav__link--anchor-primary:active {
     background-color:#6030b1;
-    color: #ffffff;
-    padding: 8px 20px;
-    border-radius: 50px;
 }
 
 .personal__logo {
