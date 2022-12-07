@@ -3,9 +3,9 @@
 FONTS
 
 */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* 
 
@@ -20,13 +20,101 @@ MAIN CODE
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, span {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
     color: #242424;
     text-align: center;
-    line-height: 1.25; 
+    line-height: 1.25;
 }
 
 p {
     line-height: 1.5;
     font-size: 16px;
 }
+
+li {
+    list-style-type: none;
+}
+
+/* 
+
+NAVIGATION BAR 
+
+*/
+
+nav {
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+.nav__link--list {
+    display: flex;
+}
+
+.nav__link--anchor {
+margin: 0 12px;
+color: #242424;
+font-weight: 700;
+text-decoration: none;
+transition: all 300ms ease;
+}
+
+
+.nav__link--anchor:hover {
+    background-color: #6030b1;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 50px;
+}
+
+.nav__link--anchor:active {
+    background-color:#a41f66;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 50px;
+}
+
+.nav__link--anchor-primary {
+    color: #242424;
+    transition: all 300ms ease;
+}
+
+.nav__link--anchor-primary:hover {
+    background-color: #a41f66;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 50px;
+}
+
+.nav__link--anchor-primary:active {
+    background-color:#6030b1;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 50px;
+}
+
+.personal__logo {
+    color: #242424;
+    font-size: 24px;
+    margin: 0 12px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 300ms ease;
+}
+
+.personal__logo:hover {
+    color: #5b5b5b;
+}
+
+
